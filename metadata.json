@@ -1,0 +1,25 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "Hack Club KiCad Libraries",
+  "description": "A compilation of KiCad libraries for use in Hack Club programs.",
+  "description_full": "A compilation of KiCad libraries for use in Hack Club programs.",
+  "identifier": "com.github.Person20020.hackclub-kicad-libraries",
+  "type": "library",
+  "author": {
+    "name": "Koji Ino",
+    "contact": {
+      "slack": "https://hackclub.enterprise.slack.com/team/U07QNKS5SKA"
+    }
+  },
+  "maintainer": {
+    "name": "Koji Ino",
+    "contact": {
+      "slack": "https://hackclub.enterprise.slack.com/team/U07QNKS5SKA"
+    }
+  },
+  "license": "CC-BY-SA",
+  "resources": {
+    "homepage": "https://github.com/Person20020/hackclub-kicad-libraries"
+  },
+  "versions": []
+}
