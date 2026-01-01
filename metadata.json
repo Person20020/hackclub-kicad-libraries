@@ -3,7 +3,7 @@
   "name": "Hack Club KiCad Libraries",
   "description": "A compilation of KiCad libraries for use in Hack Club programs.",
   "description_full": "A compilation of KiCad libraries for use in Hack Club programs.",
-  "identifier": "com.github.Person20020.hackclub-kicad-libraries",
+  "identifier": "com.github.person20020.hackclub-kicad-libraries",
   "type": "library",
   "author": {
     "name": "Koji Ino",
@@ -21,5 +21,15 @@
   "resources": {
     "homepage": "https://github.com/Person20020/hackclub-kicad-libraries"
   },
-  "versions": []
+  "versions": [
+    {
+      "version": "2026.01.01",
+      "status": "testing",
+      "kicad_version": "8.0",
+      "download_sha256": "6e6ba9eabba410cb17fcbeae36ef90e84f5e21b3d6a0b58cdbd6b0fe1d17e2db",
+      "download_size": 609966,
+      "download_url": "https://github.com/Person20020/hackclub-kicad-libraries/archive/refs/tags/2026.01.01.zip",
+      "install_size": 4184134
+    }
+  ]
 }
