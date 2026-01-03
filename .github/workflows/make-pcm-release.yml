@@ -1,0 +1,30 @@
+name: KiCad PCM Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare PCM package
+        run: |
+          mkdir pcm
+          cp -r symbols footprints 3dmodels resources metadata.json pcm/
+
+      - name: Create PCM zip
+        run: |
+          cd pcm
+          zip -r ../hackclub-kicad-libraries-${GITHUB_REF_NAME}.zip .
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: hackclub-kicad-libraries-${{ github.ref_name }}.zip
