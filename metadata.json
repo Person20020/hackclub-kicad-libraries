@@ -39,6 +39,15 @@
       "download_size": 615746,
       "download_url": "https://github.com/Person20020/hackclub-kicad-libraries/releases/download/2026.01.3/hackclub-kicad-libraries-2026.01.3.zip",
       "install_size": 4183516
+    },
+    {
+      "version": "2026.01.4",
+      "status": "testing",
+      "kicad_version": "8.0",
+      "download_sha256": "27f6bc2f168c3af0b36045a9a91008a0d5b53aae87ecf15f42da7565e6f6e6ec",
+      "download_size": 615831,
+      "download_url": "https://github.com/Person20020/hackclub-kicad-libraries/releases/download/2026.01.4/hackclub-kicad-libraries-2026.01.4.zip",
+      "install_size": 4183918
     }
   ]
 }
